@@ -1,3 +1,6 @@
+#Problem Statement :
+#Build a simple command-line calculator that performs basic arithmetic: addition, subtraction, multiplication, division, power and percentage.
+
 def add(x,y):
     """Returns the sum of x and y."""
     return x + y
@@ -39,4 +42,5 @@ elif operators == '^':
     print(f"The result is: {power(x, y)}")
 elif operators == '%':
     print(f"{y}% of {x} is: {percent(x, y)}")
-print("Thank you for using the Calculator module!")
+
+print("Thank you for using the Calculator!")
